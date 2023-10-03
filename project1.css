@@ -7,7 +7,13 @@
     }
 
     body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: myfont;
+
+    }
+
+    @font-face {
+        font-family: myfont;
+        src: url(fonts/heebo.ttf)
     }
 
     nav {
@@ -55,12 +61,11 @@
         display: none;
     }
 
-    .header{
-    }
-    .header_info{
-    }
-    .header_tech{
-    }
+    .header {}
+
+    .header_info {}
+
+    .header_tech {}
 
     @media(max-width:952px) {
         nav ul li a {
@@ -177,10 +182,12 @@
         nav ul li a {
             font-size: 15px;
         }
-        .profile_name{
+
+        .profile_name {
             display: none;
         }
-        .header_info{
+
+        .header_info {
             width: 393px;
             height: 331px;
             background: #13E8F163 0 0 no-repeat padding-box;
@@ -190,8 +197,11 @@
             align-items: center;
             justify-content: center;
             row-gap: 4px;
+            text-align: center;
+            font-family: myfont;
         }
-        .header_tech{
+
+        .header_tech {
             width: 393px;
             height: 111px;
             background: #FFFFFF 0 0 no-repeat padding-box;
