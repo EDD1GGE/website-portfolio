@@ -327,5 +327,33 @@ a:hover {
         margin-top: 16px;
         text-align: center;
     }
+.contacts {
+    width: 393px;
+    height: 428px;
+    background-color: #1AE0EC;
+    display:flex;
+    border-radius: 10px;
 
+}
+.contacts_item_list {
+    width: 100%;
+    height: 304px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5px;
+    box-sizing: border-box;
+
+;
+}
+.icons {
+    display:flex;
+    align-items: center;
+
+}
+.whatsup {
+
+    width: 45px;
+    height: 45px;
+    }
 }
