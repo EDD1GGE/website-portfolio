@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.color_aqua {
+    color: #1AE0EC;
+}
+
+body {
+    font-family: myfont, serif;
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/heebo.ttf)
+}
+
+@media (max-width: 858px) {
+    .header {
+        width: 370px;
+        height: 213px;
+    }
+}
+    .header_background {
+
+    }
