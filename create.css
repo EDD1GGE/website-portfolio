@@ -6,9 +6,7 @@
     list-style: none;
 }
 
-.color_aqua {
-    color: #1AE0EC;
-}
+
 
 body {
     font-family: myfont, serif;
@@ -43,15 +41,18 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-left:35px;
+position:relative;
+bottom:129px;
 
-
-
+.feedback_text {
+    text-align: center;
+}
+.feedback_h1
 }
 .feedback_container{
     display: flex;
     margin-top: 42px;
     margin-bottom:179px;
-
     flex-direction: column;
     row-gap: 7px;
 
