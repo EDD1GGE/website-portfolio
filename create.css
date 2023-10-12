@@ -27,5 +27,51 @@ body {
     }
 }
     .header_background {
-
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
     }
+.feedback{
+    height: 441px;
+    width: 299px;
+    background: #1A1A1AD4 0 0 no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:35px;
+
+
+
+}
+.feedback_container{
+    display: flex;
+    margin-top: 42px;
+    margin-bottom:179px;
+
+    flex-direction: column;
+    row-gap: 7px;
+
+}
+.feedback_input{
+
+}
+.input_mod{
+    width: 230px;
+    height: 28px;
+    border-bottom: #D31C75 solid 2px;
+}
+
+
+.button{
+    background-color: #D31C75;
+    color:black;
+    border-radius: 25px;
+    width: 94px;
+    height: 29px;
+    margin-top: 16px;
+    text-align: center;
+}
