@@ -6,33 +6,13 @@
     list-style: none;
 }
 
+@media (max-width: 1000px) {
+    .header_full {
 
-
-body {
-    font-family: myfont, serif;
-
-}
-
-@font-face {
-    font-family: myfont;
-    src: url(fonts/heebo.ttf)
-}
-
-@media (max-width: 858px) {
-    .header {
-        width: 370px;
-        height: 213px;
-    }
-}
-    .header_background {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
     }
 .feedback{
-    height: 441px;
-    width: 299px;
+    width: 569px;
+    height: 643px;
     background: #1A1A1AD4 0 0 no-repeat padding-box;
     opacity: 1;
     color: white;
@@ -41,13 +21,13 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-left:35px;
-position:relative;
-bottom:129px;
+    position:relative;
+    bottom:129px;
 
-.feedback_text {
-    text-align: center;
-}
-.feedback_h1
+    .feedback_text {
+        text-align: center;
+    }
+    .feedback_h1
 }
 .feedback_container{
     display: flex;
@@ -75,4 +55,78 @@ bottom:129px;
     height: 29px;
     margin-top: 16px;
     text-align: center;
+}
+}
+
+body {
+    font-family: myfont, serif;
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/heebo.ttf)
+}
+@media (max-width: 952px) {
+
+}
+@media (max-width: 858px) {
+    .header {
+        width: 370px;
+        height: 213px;
+
+    }
+
+    .header_background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+.feedback {
+    height: 441px;
+    width: 299px;
+    background: #1A1A1AD4 0 0 no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 35px;
+    position: relative;
+    bottom: 129px;
+}
+.feedback_text {
+    text-align: center;
+}
+
+.feedback_container{
+    display: flex;
+    margin-top: 42px;
+    margin-bottom:179px;
+    flex-direction: column;
+    row-gap: 7px;
+
+}
+.feedback_input{
+
+}
+.input_mod{
+    width: 230px;
+    height: 28px;
+    border-bottom: #D31C75 solid 2px;
+}
+
+
+.button{
+    background-color: #D31C75;
+    color:black;
+    border-radius: 25px;
+    width: 94px;
+    height: 29px;
+    margin-top: 16px;
+    text-align: center;
+}
 }

@@ -103,7 +103,7 @@ a:hover {
     }
 }
 
-@media (max-width: 858px) {
+@media (max-width:  850px) {
     #menu__toggle {
         opacity: 0;
     }
