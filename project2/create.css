@@ -6,10 +6,14 @@
     list-style: none;
 }
 
-@media (max-width: 1000px) {
     .header_background {
-
+       display:none;
     }
+.header_home{
+
+    display:flex;
+
+}
 
 .feedback{
     width: 569px;
@@ -72,18 +76,22 @@ body {
 
 }
 @media (max-width: 858px) {
+
     .header {
         width: 370px;
         height: 213px;
 
     }
-
     .header_background {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
 
 
+    }
+    .header_home{
+        display:none;
     }
 .feedback {
     height: 441px;

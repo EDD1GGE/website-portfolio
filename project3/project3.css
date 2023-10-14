@@ -4,17 +4,46 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-.feedback_h1{
-font-size: 160px;
-    text-align: center;
-    font-family:Satisfy;
 }
-    .feedback-p {
+html, body {
+    margin:0px;
+    height:100%;
+}
+.box {
 
-    }
-    .feedback_container {
-        align-items: center;
-    }
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+        .feedback {
+            width: 1920px;
+            height: 1086px;
+            background: transparent linear-gradient(180deg, #281EFF 0, #2DFF8C 100%) 0 0 no-repeat padding-box;
+        }
+
+        .feedback_h1 {
+            font-size: 160px;
+            text-align: center;
+            font-family: Satisfy;
+        }
+
+        .feedback_h2 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+
+        .feedback-p {
+            text-align: center;
+        }
+
+        .feedback_container {
+            align-items: center;
+        }
+
     @font-face {
         font-family: Satisfy;
         src: url(fonts3/Satisfy-Regular.ttf)
