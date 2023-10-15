@@ -61,7 +61,11 @@ a:hover {
 .hidden_checkbox {
     display: none;
 }
-
+.about_me {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center
+}
 .header {
 }
 
@@ -78,25 +82,26 @@ a:hover {
     text-align: center;
     font-family: myfont;
 }
-
-.header_tech {
+.header_tech_one {
+    display:none;
+ }
+.header_tech_two {
+    display: none;
+}
+.header_tech_desktop {
     width: 1920px;
     height: 130px;
     background: 0px 0px no-repeat padding-box padding-box rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
     opacity: 1;
-    display: grid;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
-.header_tech_one{
-    display: grid;
-    grid-row-gap: 8px;
-}
-.header_tech_two {
-    display: grid;
-   grid-row-gap: 11px;
-}
+
+
+
 @media (max-width: 952px) {
     nav ul li a {
         font-size: 20px;
@@ -242,7 +247,8 @@ a:hover {
     }
     .header_tech_one{
         display: flex;
-        column-gap: 8px;
+        grid-row-gap: 8px;
+
     }
     .header_tech_two{
         display: flex;
