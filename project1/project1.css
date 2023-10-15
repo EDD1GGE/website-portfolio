@@ -65,6 +65,37 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
     align-items: center
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-top: 20px;
+    align-content: space-around;
+    align-items: center;
+    top: 671px;
+    left: 0;
+    width: 1920px;
+    height: 715px;
+}
+.info_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    height: 41px;
+    background: #1AE0EC 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    text-align: center;
+    margin-top:28px;
+}
+h1 {
+    font-size: 80px;
+}
+.header_info_text{ font-size: 20px;
 }
 .header {
 }
@@ -99,9 +130,82 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+.portfolio_items {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    top: 1676px;
+    left: 1212px;
+    margin-left:50px;
+}
+
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.card {
+    text-align: center;
 
 
+    margin-left:50px;
+}
+.feedback{
 
+    background: #3A3A3A 0 0 no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    top: 2944px;
+    left: 0.000244140625px;
+    width: 1920px;
+    height: 959px;
+
+    
+}
+.feedback_container{
+
+        display: flex;
+        margin-top: 32px;
+        flex-direction: column;
+        row-gap: 7px;
+
+
+}
+.feedback_input{
+    top: 3294px;
+    left: 1067px;
+    width: 548px;
+    height: 50px;
+    border-bottom: #1AE0EC solid 2px;
+
+}
+.input_mod {
+    top: 3294px;
+    left: 1067px;
+    width: 548px;
+    height: 50px;
+
+}
+.input_mod_big{
+    top: 3568px;
+    left: 1067px;
+    width: 548px;
+    height: 100px;
+    border-bottom: #1AE0EC solid 2px;
+}
+.button{
+    background-color: #1AE0EC;
+    color:black;
+    border-radius: 25px;
+    margin-top: 21px;
+    text-align: center;
+    top: 3701px;
+    left: 1450px;
+    width: 166px;
+    height: 50px;
+}
 @media (max-width: 952px) {
     nav ul li a {
         font-size: 20px;
