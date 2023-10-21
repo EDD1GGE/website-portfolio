@@ -188,6 +188,13 @@ p {
     height: 50px;
 
 }
+.input_name {
+    margin-left: 5px;
+}
+.feedback_container {
+    display: flex;
+    row-gap: 20px;
+}
 .input_mod_big{
     top: 3568px;
     left: 1067px;
@@ -198,13 +205,28 @@ p {
 .button{
     background-color: #1AE0EC;
     color:black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     border-radius: 25px;
-    margin-top: 21px;
+    margin-top: 100px;
     text-align: center;
     top: 3701px;
     left: 1450px;
     width: 166px;
     height: 50px;
+}
+.contacts {
+    display: flex;
+}
+.contacts_item_list {
+   
+
+
+}
+.icons {
+padding-right: 159px;
 }
 @media (max-width: 952px) {
     nav ul li a {
